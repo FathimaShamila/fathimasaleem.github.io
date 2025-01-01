@@ -1,0 +1,16 @@
+# Site settings
+title: Fathima Shamila,Data Analyst
+author:
+  name: Fathima Shamila
+  email: fathimashamilams@gmail.com
+description: My Data Journey
+url: "https://fathimasaleem.github.io/"
+timezone: America/Central
+show_downloads : false
+
+# Build settings
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-feed
+- jekyll-remote-theme
