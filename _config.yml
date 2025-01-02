@@ -1,3 +1,12 @@
 # Site settings
 title: Fathima Shamila
+email: fathimashamilams@gmail.com
+github_username: FathimaShamila
+#Build Settings
 theme: jekyll-theme-minimal
+remote-theme: pages-themes/cayman@v0.2.0
+#SEO
+social:
+  name: Fathima Shamila
+  links:
+    - https://github.com/FathimaShamila/
