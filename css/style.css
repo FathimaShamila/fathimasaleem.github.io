@@ -493,7 +493,16 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
-
+.collage{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.collage img{
+  width:100%;
+  height:auto;
+  border-radius: 8px;
+}
 .header {
   position: fixed;
   width: 100%;
