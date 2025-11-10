@@ -87,7 +87,7 @@
         <h1 class="heading-primary">AskMyDocs: RAG Chatbot</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            
+            An AI powered document Intelligence system that lets users upload documents and ask context aware questions with semantic search and source attribution.
           </p>
         </div>
         <div class="project-cs-hero__cta">
@@ -114,20 +114,11 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                The RAG Chatbot is an AI powered document Intelligence & Q&A system built with Python,LlamaIndex and Gradio and the Google Gemini API. It allows users to upload multi page PDFS ,which are first parsed using PyMuPDF and then split into sentence based chunks
+                with overlap to preserve context across sections. Each chunk is wrapped in a Document object from LlamaIndex and then converted into embeddings using the Sentence Transformers embedding model and the resulting embeddings are indexed and stored in a FAISS vector store for efficient semantic retrieval. The chatbot features a user friendly Gradio interface, with a status box indicating when documents are processed and a document analysis panel displaying statistics about the processed documents.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                Users can ask context aware questions, and the chatbot provides accurate answers along with the source of the information, highlighting the most relevant chunk. Out of context queries are handled gracefully with clear message, helping prevent hallucinations by ensuring the model only responds when sufficient information is available.This project demonstrates the full RAG workflow, including document parsing, syntactic chunking with overlap, embedding generation, semantic retrieval with FAISS, multi document handling, and retrieval augmented generation , all combined in an interactive and accessible frontend interface.
               </p>
             </div>
             <div class="project-details__tools-used">
@@ -153,7 +144,7 @@
               >
               -->
               <a
-                href="#"
+                href="https://github.com/FathimaShamila/rag-chatbot.git"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
